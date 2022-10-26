@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    background-image: url(images/flowers.jpeg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    color: lavender;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 2em;
+}
+
+#container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: cornflowerblue;
+    height: 15em;
+    width: 15em;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+button {
+    background-color: red;
+    background-image: radial-gradient(lavender, cornflowerblue);
+    width: 5em;
+    height: 5em;
+    border: none;
+    border-radius: 2.5em;
+}
